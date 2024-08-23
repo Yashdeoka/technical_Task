@@ -42,7 +42,7 @@ Service monitoring:
 
 ./monitor.sh -service
 
-# Seconed Task 
+# second Task 
 # Security Audit and Server Hardening Script
 Overview
 This Bash script automates the security audit and hardening process on Linux servers. It checks for common security vulnerabilities, ensures proper network configurations, and applies necessary hardening measures. The script is modular, allowing it to be easily reused across multiple servers to maintain stringent security standards.
