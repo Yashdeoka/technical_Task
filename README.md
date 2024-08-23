@@ -14,7 +14,6 @@ Usage
 Run the Entire Dashboard:
 
 bash
-Copy code
 ./monitor.sh
 This will display all the monitoring sections and refresh every 5 seconds.
 
@@ -22,31 +21,25 @@ View Specific Sections:
 
 Top CPU/Memory applications:
 
-Copy code
 ./monitor.sh -cpu
 Network statistics:
 
-Copy code
 ./monitor.sh -network
 Disk usage:
 
-Copy code
+
 ./monitor.sh -disk
 System load:
 
-Copy code
 ./monitor.sh -load
 Memory usage:
 
-Copy code
 ./monitor.sh -memory
 Process monitoring:
 
-Copy code
 ./monitor.sh -process
 Service monitoring:
 
-Copy code
 ./monitor.sh -service
 
 # Seconed Task 
@@ -67,8 +60,6 @@ Custom Security Checks: Allows for the addition of custom security checks via a 
 Reporting and Alerting: Generates a summary report and sends email alerts if critical issues are found.
 Usage
 Run the Script:
-
-Copy code
 sudo ./user_group_audit.sh
 sudo ./file_permission_audit.sh
 sudo ./service_audit.sh
