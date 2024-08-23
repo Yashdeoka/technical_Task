@@ -1,4 +1,4 @@
-# Proxy Server Monitoring Script
+# Monitoring System Resources for a Proxy Server
 Overview
 This script is designed to monitor various system resources on a proxy server. It presents the data in a dashboard format, refreshing every few seconds to provide real-time insights. The script also allows you to view specific parts of the dashboard individually using command-line switches.
 
@@ -43,7 +43,7 @@ Service monitoring:
 ./monitor.sh -service
 
 # second Task 
-# Security Audit and Server Hardening Script
+# Script for Automating Security Audits and Server Hardening on Linux Servers
 Overview
 This Bash script automates the security audit and hardening process on Linux servers. It checks for common security vulnerabilities, ensures proper network configurations, and applies necessary hardening measures. The script is modular, allowing it to be easily reused across multiple servers to maintain stringent security standards.
 
